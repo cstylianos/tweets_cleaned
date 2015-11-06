@@ -1,5 +1,5 @@
 """
-The objective of this code is to read from a file that
+The objective of this script is to read from a file that
 contains twitter data in JSON format, extract the
 hashtags, create an edge list and calculate the rolling average.
 The average for each tweet is the written to an output file.
