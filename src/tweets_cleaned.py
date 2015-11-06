@@ -1,6 +1,6 @@
 #!/usr/bin/env python2.7
 """
-The objective of this code is to read from a file that
+The objective of this script is to read from a file that
 contains tweeter data in JSON format and extract the
 timestamp and clean text in an output file. The text
 has to be clean from escape and unicode characters.
