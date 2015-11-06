@@ -15,6 +15,6 @@ Note: The file provides twitter text clean from escape and unicode characters. E
 
 The second python file "average_degree.py" also reads from "tweets.txt" and provides the average vertex of a hashtag graph. The output is in "ft2.txt", located in /tweet.output. Each line in "ft2.txt" represents the rolling average.
 
-Note: For the calculation of the rolling average, tweets with no hashtags or no hashtags were ignored. Only tweets that were within a 60 second window were taken into account.
+Note: For the calculation of the rolling average, tweets with no hashtags or no hashtags were ignored. Also duplicates were removed as well. Only tweets that were within a 60 second window were taken into account.
 
 The run the pyhon file, execute ./run.sh. Then provide the location of tweets.txt (./tweet_input/tweets.txt for example) and location of output file (./tweet_output.ft1.txt for example).
