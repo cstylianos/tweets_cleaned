@@ -6,19 +6,6 @@ The python files extract information (clean text and timestamp) and perform roll
 
 The python files are located in /src. 
 
-The repository has the following tree structure: 
-
-├── README.md  
-├── run.sh  
-├── src  
-│   ├── average_degree.py  
-│   └── tweets_cleaned.py  
-├── tweet_input  
-│   └── tweets.txt  
-└── tweet_output  
-    ├── ft1.txt  
-    └── ft2.txt
-
 "tweets.txt" contains 10,000 tweets and was used to test the python files. 
 
 The first python file "tweets_cleaned.py" reads from file "tweets.txt" (located in /tweet_input) that
